@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 0, 0.6);
+    background-color: white;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    font-size: 80px;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+}
+
+.colors {
+    padding: 20px 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.colors button {
+    padding: 15px 10px;
+    width: 80px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
